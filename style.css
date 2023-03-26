@@ -1,0 +1,18 @@
+h1 {
+  color: crimson;
+}
+body {
+  background-color: rgb(197, 120, 13);
+}
+a {
+  color: black;
+}
+
+table,
+tr,
+td,
+th {
+  border: black 1px solid;
+}
+
+

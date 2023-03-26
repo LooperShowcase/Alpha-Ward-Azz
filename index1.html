@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <title>check point</title>
+    <link rel="icon" href="https://www.esprinet.com/wp-content/uploads/2021/03/loghi-vendor-checkpoint.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    
+    <link rel="index2" href="index2.html">
+    <link rel="index3" href="index3.html" />
+
+  </head>
+
+  <body>
+    <nav class="navbar bg-dark" data-bs-theme="dark">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index1.html">home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index2.html">news</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index4.html">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index3.html">Pricing</a>
+              </li>
+     
+            </ul>
+            <span class="navbar-text">
+             
+            </span>
+          </div>
+        </div>
+      </nav>
+    </nav>
+    <button onclick="printx()" onclick="printy()">Click here!!</button>
+
+    <ul id="list">
+      <li>
+        Israel
+      </li>
+      
+      <li>
+        america
+      </li>
+    </ul>
+
+    <center><h1>about check point</h1></center>
+    <hr color="black" />
+    <br />
+    <center><h4>Check Point Software Technologies</h4></center>
+    <h4>
+      Check Point is an American-Israeli multinational provider of software and
+      combined hardware and software products for IT security, including network
+      security, endpoint security, cloud security, mobile security, data
+      security and security management. As of 2021, the company has
+      approximately 6,000
+    </h4>
+    <br />
+    <hr color="black" />
+    <br />
+    <img src="https://pbs.twimg.com/profile_images/1483927944107937792/De4YWtxS_400x400.jpg" width="200" height="200" />
+    <a href="https://www.checkpoint.com/">
+      <br />
+      press here to learn more about check point.
+    </a>
+    <hr />
+    <center>
+      <h1>
+        If you want to discover more about check point press the links from
+        above
+      </h1>
+    </center>
+    <a> <input type="idk"> form </a>
+
+    <input id="colorpicker" type="color" onchange="BGchange()">
+  
+    <input id="textF" type="text">
+    <button type="button" class="btn btn-primary btn-lg">Large button</button>
+
+  
+   
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       Have fun learning more about checkpoint
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <script>
+      function add(){
+        var ul = document.getElementById("list");
+        var li = document.createElement("li");
+
+        li.appendChild(
+          document.createTextNode(document.getElementById("textF").value)
+        );
+        ul.appendChild(li);
+      }
+      var x = 70;
+      function printx() {
+        console.log(x);
+      }
+
+      var y = 80;
+      function printy() {
+        console.log(y);
+      }
+      function BGchange(){
+        var RgbValue = document.getElementById("colorpicker").value;
+        document.body.style.background = RgbValue;
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  </body>
+</html>
